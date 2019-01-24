@@ -4,20 +4,29 @@ body {
 }
 
 .container {
-  margin: auto;
-  width: 1300px;
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 300px;
 
 }
 
 h1 {
   font-size: 2em;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .baku {
   background-image: url('../images/baku.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 375px;
+  width: 300px;
   height: 200px;
   padding: 20px;
   margin: 10px;
@@ -28,7 +37,7 @@ h1 {
   background-image: url('../images/london.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 375px;
+  width: 300px;
   height: 200px;
   padding: 20px;
   margin: 10px;
@@ -39,7 +48,7 @@ h1 {
   background-image: url('../images/madrid.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 375px;
+  width: 300px;
   height: 200px;
   padding: 20px;
   margin: 10px;
@@ -50,7 +59,7 @@ h1 {
   background-image: url('../images/rome.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 375px;
+  width: 300px;
   height: 200px;
   padding: 20px;
   margin: 10px;
@@ -59,18 +68,44 @@ h1 {
 
 @media screen and (min-width: 575px) {
   .container {
-    width: 575px;
+    width: 100%;
   }
   .baku {
-    margin-bottom: 20px;
+    width: 30%;
+    margin-bottom: 10px;
   }
   .london {
-    margin-bottom: 20px;
+    width: 30%;
+    margin-bottom: 10px;
   }
   .madrid {
-    margin-bottom: 20px;
+    width: 30%;
+    margin-bottom: 10px;
   }
   .rome {
-    margin-bottom: 20px;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 65%;
+  }
+  .baku {
+    width: 15%;
+    margin-bottom: 10px;
+  }
+  .london {
+    width: 15%;
+    margin-bottom: 10px;
+  }
+  .madrid {
+    width: 15%;
+    margin-bottom: 10px;
+  }
+  .rome {
+    width: 15%;
+    margin-bottom: 10px;
   }
 }
